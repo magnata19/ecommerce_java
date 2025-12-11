@@ -2,7 +2,9 @@ package br.com.ecommerce.ecommerce_java.infrastructure.product.domain;
 
 import br.com.ecommerce.ecommerce_java.domain.enums.Category;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
@@ -11,6 +13,8 @@ import java.time.LocalDateTime;
 @Table(name = "products")
 @Getter
 @Setter
+@AllArgsConstructor
+@NoArgsConstructor
 public class ProductEntity {
 
   @Id
