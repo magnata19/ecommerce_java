@@ -5,7 +5,6 @@ import br.com.ecommerce.ecommerce_java.domain.repository.ProductRepository;
 import br.com.ecommerce.ecommerce_java.infrastructure.product.domain.ProductEntity;
 import br.com.ecommerce.ecommerce_java.infrastructure.product.mappers.ProductMapper;
 import lombok.RequiredArgsConstructor;
-import org.apache.coyote.BadRequestException;
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
